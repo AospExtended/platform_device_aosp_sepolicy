@@ -1,1 +1,2 @@
 allow system_server hal_lineage_power_hwservice:hwservice_manager find;
+get_prop(system_server, vendor_camera_prop);
