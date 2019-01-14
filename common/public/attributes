@@ -3,3 +3,4 @@ hal_attribute(lineage_camera_motor)
 
 # FOD
 hal_attribute(lineage_fod)
+hal_attribute(lineage_touch)
