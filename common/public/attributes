@@ -6,3 +6,6 @@ hal_attribute_aosp(lineage_livedisplay)
 
 # FOD
 hal_attribute_aosp(lineage_fod)
+
+# Lineage touch
+hal_attribute_aosp(lineage_touch)
