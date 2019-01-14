@@ -6,3 +6,6 @@ hal_client_domain(system_app, hal_lineage_livedisplay)
 
 #selinux status
 allow system_app selinuxfs:file r_file_perms;
+
+# Allow access to the touch HAL
+hal_client_domain(system_app, hal_lineage_touch)
