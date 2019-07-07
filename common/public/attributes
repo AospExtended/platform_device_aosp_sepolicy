@@ -1,2 +1,7 @@
 # LiveDisplay
 hal_attribute(lineage_livedisplay)
+# HALs
+hal_attribute(lineage_camera_motor)
+hal_attribute(lineage_livedisplay)
+hal_attribute(lineage_touch)
+hal_attribute(lineage_trust)
