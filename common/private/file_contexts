@@ -20,3 +20,7 @@
 
 # OTA packages
 /data/system_updates(/.*)?           u:object_r:ota_package_file:s0
+
+# ADB Root
+/system/bin/adb_root       u:object_r:adbroot_exec:s0
+/data/adbroot(/.*)?        u:object_r:adbroot_data_file:s0
