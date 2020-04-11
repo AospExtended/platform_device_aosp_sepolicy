@@ -23,3 +23,6 @@ BOARD_SEPOLICY_DIRS += \
     device/aosp/sepolicy/common/dynamic \
     device/aosp/sepolicy/common/vendor
 endif
+
+# Selectively include legacy rules defined by the products
+-include device/aosp/sepolicy/legacy-common/sepolicy.mk
