@@ -10,3 +10,7 @@ allow platform_app ota_package_file:dir rw_dir_perms;
 
 # Allow FOD HAL service to be found
 hal_client_domain(platform_app, hal_lineage_fod)
+
+# LockScreen Charging
+allow platform_app sysfs_battery_supply:dir { search };
+allow platform_app sysfs_battery_supply:file { getattr open read };
