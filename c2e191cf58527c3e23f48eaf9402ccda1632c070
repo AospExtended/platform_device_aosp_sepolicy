@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7c01c367_89982fad",
+        "filename": "common/private/file.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000068
+      },
+      "writtenOn": "2020-05-11T06:09:39Z",
+      "side": 1,
+      "message": "triggers duplicate declsration",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 47
+      },
+      "revId": "c2e191cf58527c3e23f48eaf9402ccda1632c070",
+      "serverId": "d5cc2900-f5de-4894-bcd1-c35edbbdd7bf",
+      "unresolved": true
+    }
+  ]
+}
