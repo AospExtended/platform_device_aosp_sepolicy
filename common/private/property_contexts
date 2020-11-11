@@ -1,0 +1,2 @@
+# Recovery update
+persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
