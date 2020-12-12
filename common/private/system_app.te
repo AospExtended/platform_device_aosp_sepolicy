@@ -1,5 +1,8 @@
 # Allow Settings to read ro.vendor.build.security_patch
 get_prop(system_app, vendor_security_patch_level_prop)
 
+# LiveDisplay
+hal_client_domain(system_app, hal_lineage_livedisplay)
+
 #selinux status
 allow system_app selinuxfs:file r_file_perms;
