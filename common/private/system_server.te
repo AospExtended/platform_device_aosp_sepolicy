@@ -4,6 +4,7 @@ set_prop(system_server, shell_prop)
 # Use HALs
 hal_client_domain(system_server, hal_lineage_fod)
 hal_client_domain(system_server, hal_lineage_touch)
+hal_client_domain(system_server, hal_lineage_livedisplay)
 
 allow system_server pocket_service:service_manager { add find };
 
