@@ -1,0 +1,5 @@
+type hal_aosp_smartcharge_default, coredomain, domain;
+hal_server_domain(hal_aosp_smartcharge_default, hal_aosp_smartcharge)
+
+type hal_aosp_smartcharge_default_exec, exec_type, system_file_type, file_type;
+init_daemon_domain(hal_aosp_smartcharge_default)

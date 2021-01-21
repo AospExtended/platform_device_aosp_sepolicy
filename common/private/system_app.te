@@ -9,3 +9,7 @@ allow system_app selinuxfs:file r_file_perms;
 
 # Allow access to the touch HAL
 hal_client_domain(system_app, hal_lineage_touch)
+
+# Allow SmartCharge HAL service to be found
+hal_client_domain(system_app, hal_aosp_smartcharge)
+

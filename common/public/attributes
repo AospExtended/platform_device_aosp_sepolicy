@@ -9,3 +9,7 @@ hal_attribute_aosp(lineage_fod)
 
 # Lineage touch
 hal_attribute_aosp(lineage_touch)
+
+# Smart Charge
+hal_attribute_aosp(aosp_smartcharge)
+
