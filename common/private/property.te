@@ -1,0 +1,8 @@
+compatible_property_only(`
+    system_restricted_prop(flag_system_prop)
+')
+
+not_compatible_property(`
+    system_public_prop(flag_system_prop)	
+')
+
