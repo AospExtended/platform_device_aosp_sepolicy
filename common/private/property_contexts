@@ -1,1 +1,2 @@
 persist.wfd.legacy.video.mode u:object_r:exported_system_prop:s0
+persist.systemui.flag_combined_status_bar_signal_icons u:object_r:default_prop:s0
