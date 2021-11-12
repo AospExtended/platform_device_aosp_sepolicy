@@ -17,3 +17,7 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 
 # Allow SmartCharge HAL service to be found
 hal_client_domain(platform_app, hal_aosp_smartcharge)
+
+# Allow settings to read and set prop for 'flag_combined_status_bar_signal_icons'
+set_prop(platform_app, flag_system_prop);
+get_prop(platform_app, flag_system_prop);
