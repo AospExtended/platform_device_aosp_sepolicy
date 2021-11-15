@@ -33,6 +33,24 @@
       "message": "compiles fine here without neverallow",
       "revId": "b35a709e094e789105fc30158588079804beaae0",
       "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "adcfffc3_c945776c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2021-11-15T15:04:36Z",
+      "side": 1,
+      "message": "disable ingore neverallow in vendor\n\nhttp://jenkins.aospextended.com/job/aex_poco/1016/console",
+      "parentUuid": "84e9fc6e_8137937a",
+      "revId": "b35a709e094e789105fc30158588079804beaae0",
+      "serverId": "692a3d4a-6cfc-41d4-b12b-cb9542eed61e"
     }
   ]
 }
