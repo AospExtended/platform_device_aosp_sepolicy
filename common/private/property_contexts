@@ -1,2 +1,8 @@
 persist.wfd.legacy.video.mode          u:object_r:exported_system_prop:s0
 media.wfd.                             u:object_r:media_wfd_prop:s0
+
+# Themed Bootanimation
+persist.bootanim.color1     u:object_r:bootanim_system_prop:s0
+persist.bootanim.color2     u:object_r:bootanim_system_prop:s0
+persist.bootanim.color3     u:object_r:bootanim_system_prop:s0
+persist.bootanim.color4     u:object_r:bootanim_system_prop:s0
