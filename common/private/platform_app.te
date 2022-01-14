@@ -17,3 +17,7 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 
 # Allow SmartCharge HAL service to be found
 hal_client_domain(platform_app, hal_aosp_smartcharge)
+
+# Allow SystemUI to manage bootanimation colors
+get_prop(platform_app, bootanim_system_prop)
+set_prop(platform_app, bootanim_system_prop)
