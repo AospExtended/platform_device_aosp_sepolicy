@@ -1,2 +1,6 @@
 persist.wfd.legacy.video.mode          u:object_r:exported_system_prop:s0
 media.wfd.                             u:object_r:media_wfd_prop:s0
+
+# Aux camera
+vendor.camera.aux.packageexcludelist   u:object_r:exported_system_prop:s0
+vendor.camera.aux.packagelist          u:object_r:exported_system_prop:s0
